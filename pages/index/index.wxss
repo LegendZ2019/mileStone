@@ -1,0 +1,71 @@
+/**index.wxss**/
+
+
+.bigCard{
+  margin: 75rpx 75rpx 0 75rpx;
+  width: 600rpx;
+  height: 634rpx;
+  border-radius: 10px;
+  background-color: rgba(189, 189, 189, 1);
+  text-align: center;
+  border: 2px solid rgba(229, 229, 234, 1);
+}
+
+
+.mileSwiperCard{
+  width: 100%;
+  height: 600rpx;
+}
+
+.mileSwiper{
+  height: 720rpx;
+  width: 100%;
+}
+
+
+.bookName{
+  display: block;
+  font-size: 80rpx;
+  color: rgba(251, 251, 251, 1);
+  font-family: PingFangSC-regular;
+}
+
+.mileStoneCount{
+  position: fixed;
+  top: 140rpx;
+  left: 0px;
+  height: 300rpx;
+  width: 750rpx;
+  color: rgba(250, 250, 250, 1);
+  font-size: 150px;
+  font-family: PingFangSC-bold;
+}
+
+.details{
+  color: rgba(16, 16, 16, 1);
+  font-size: 33rpx;
+  text-align: right;
+  position: fixed;
+  left: 358rpx;
+  top: 430rpx;
+  display: flex;
+  flex-direction: column;
+  font-family: PingFangSC-regular;
+}
+
+.Bold
+{
+  font-weight: bold;
+}
+
+.mProgress{
+  position: relative;
+  top: 440rpx;
+  margin: 0 25px;
+  justify-content:center;
+}
+
+.megaPlus{
+  width: 168rpx;
+  height: 168rpx;
+}

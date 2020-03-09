@@ -1,0 +1,4 @@
+<!--pages/addFriend/addFriend.wxml-->
+<!-- <button bindtap="firstCloudFunc">第一个云函数</button> -->
+<button bindtap="selectImg">选择图片</button>
+<image src="{{imgUrl}}"></image>

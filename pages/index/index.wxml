@@ -1,0 +1,28 @@
+<!--index.wxml-->
+
+<view class="container">
+  <swiper class="mileSwiper" indicator-dots="{{true}}">
+
+    <swiper-item class="mileSwiperCard" wx:for="{{mileStoneList}}">
+      <view class="bigCard">
+        <text class="bookName">{{item.bookName}}</text>
+        <text class="mileStoneCount">{{item.mileStoneNum}}</text>
+        <view class="details">
+        
+          <text style="color:gray;">MileStones</text>
+          
+          <text>Previous :<text style="font-weight:Bold">{{item.lastUpdMS}}</text></text>
+          <text>{{item.currentPage}}/{{item.maxPage}}页</text>
+          
+        </view>
+        <view class="mProgress">
+          <progress percent="{{item.percent}}" active color="#0BF0AF" border-radius="10px" stroke-width="12" active-mode="forwards" />
+        </view>
+      </view>
+    </swiper-item>
+  </swiper>
+  
+<!-- 
+  <view class="smallCard"></view> -->
+  <image src="/images/plus2.png" class="megaPlus" catchtap="f0"></image>
+</view>

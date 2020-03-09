@@ -1,0 +1,27 @@
+<!--pages/newMileStone/newMileStone.wxml-->
+  <view class="bigBar">
+    <view class="selectBook" catchtap="f2">
+      <view class="selectText">书名：{{bookName}}</view>
+      <image class="selectButton" src="/images/rSign.png"></image>
+    </view>
+    <view class="typeMS"></view>
+    <view class="uploadPic">
+      <view class="singlePic"></view>
+      <view class="singlePic"></view>
+      <view class="singlePic"></view>
+      <view class="singlePic"></view>
+    </view>
+
+    <slider class="pageSlider" bindchange="selectCurrentPage" min="0" max="{{maxPage}}" activeColor="blue" value="{{20}}"  show-value/>
+    <!-- 以后先从云端调上一次的数据（如果有） -->
+    <image class="sendButton" src="/images/send3.png" catchtap="f3"/>
+  </view>
+
+
+
+
+<view class="smallBar">
+  <view class="searchBar"></view>
+  <!-- bindtap改了，记得改回来-->
+  <image class="searchButton" src="/images/search.png" bindtap="temp" />
+</view>

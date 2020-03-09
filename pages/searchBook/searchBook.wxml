@@ -1,0 +1,16 @@
+<view class="container">
+  <view class="smallBar">
+    <view class="searchBar"><input class="inputBar" maxlength="10" placeholder="输入书名" placeholder-class="placeHolder" /></view>
+    <image class="searchButton" src="/images/search.png"/>
+  </view> 
+
+  <view class="smallBar">
+    <view class="nameBar"><text class="bookName">{{book.name}}</text></view>
+    <image class="plusButton" bindtap="add" src="/images/plus3.png"/>
+  </view> 
+
+  <view class="smallBar">
+    <view class="inputNameBar"><input class="inputBar" maxlength="10" placeholder="找不到？手动添加" placeholder-class="placeHolder" /></view>
+    <image class="plusButton" bindtap="add" src="/images/plus3.png"/>
+  </view> 
+</view>

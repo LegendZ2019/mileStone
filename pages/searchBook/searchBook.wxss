@@ -1,0 +1,107 @@
+/* pages/searchBook/searchBook.wxss */
+
+.container{
+  height:100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.smallBar{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 85%;
+  margin: 20rpx 40rpx;
+  height: 106px;
+  line-height: 20px;
+  border-radius: 10px;
+  text-align: center;
+  border: 1px solid rgba(187, 187, 187, 1);
+}
+
+.searchBar{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  left: 22px;
+  width: 260px;
+  height: 116rpx;
+  margin: 20rpx;
+  border-radius: 10px;
+  color: rgba(136, 136, 136, 1);
+  font-size: 14px;
+  text-align: left;
+  font-family: Microsoft Yahei;
+  border: 1px solid rgba(4, 232, 224, 1);
+}
+
+.searchButton{
+  display: flex;
+  margin: 20rpx;
+  width: 33px;
+  height: 33px;
+}
+
+
+.plusButton{
+  display: flex;
+  margin: 20rpx;
+  width: 33px;
+  height: 33px;
+}
+
+.nameBar{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 520rpx;
+  height: 116rpx;
+  margin: 20rpx;
+  color: rgba(136, 136, 136, 1);
+  font-size: 14px;
+  text-align: center;
+  font-family: Microsoft Yahei;
+  border: 0px solid rgba(4, 232, 224, 1);
+}
+
+.bookName{
+  color: rgba(16, 16, 16, 1);
+  font-size: 28px;
+  text-align: center;
+  font-family: PingFangSC-regular;
+}
+
+.inputNameBar{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 520rpx;
+  height: 116rpx;
+  margin: 20rpx;
+  color: rgba(136, 136, 136, 1);
+  border: 0px solid rgba(4, 232, 224, 1);
+}
+
+ .inputBar{
+   color: rgba(16, 16, 16, 1);
+   font-size: 28px;
+   font-family: PingFangSC-regular;
+   height: 56rpx;
+   text-align: center;
+   min-height: 56rpx;
+ }
+
+ .placeHolder{
+  width: 100%;
+  height: 100%;
+  color: rgba(136, 136, 136, 1);
+  font-size: 15px;
+  text-align: center;
+  font-family: PingFangSC-regular;
+ }
